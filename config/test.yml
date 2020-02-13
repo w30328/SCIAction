@@ -17,4 +17,4 @@ management:
       exposure:
         include: refresh,health,info
 data:
-  message: '{cipher}AQCA9yXDgGJjzi3jG8pPRCmeft4INA8I0sR+Laqc+O4Ax2u3+ROl0YfzjuegJUosXNS65O1EycweIhpzdEq3vmm43ILNiPHvEsZSi6tYrtTb5PU2z93ngvPXH2eBIr1CwrAjHhuRb327AZxqgeqw63s0DPZo72k5mSW20CFtfaEN1p/HnH4fCI8SmN1s7uCtnxmqndve14v9Vfj7eMgWsZn0d/LDRQ90mt236mMw/i4pKd3IkpRz/s2utnfkKODrLWTtWGCYCYI0VGFv+remF+1M/foaA6OPycNmhGVhiZp7Ha4QPQ2LR9Ktk5I0lQNJqetHQr7YRrIDpZxQjTGvvkIz2IQYPIMbU0NtVGGG2qDme/J78Ef87KL2z6LYoFs81A0='
+  message: '{cipher}AQBQQD6gWO8o30uzZA/A+/YruTocoBh93/nx7dX3GVxquyvDi61UgI6nziewEqgOEjUzhA32vPLQkuU7YAJjennlrvUmrhdcl9zhpcOPLUj6Jm/PkuFHp30YOiEvhgIWV+r+lj+m1YZaSjeWtaX1lN/ZQrQF6CGs3PMfvxt7Ly60YQyE88f67BtBc+8mVNZY20+U6kp/qNz5UMPDuW4O5AbUswBdJg65hJieLa/C7IdKCVYLctGPRJYoMFGvcCIFsbobL1iUtSahpW+PguuTxHZFWXM3juYdraiFdLw9FG4R711RSoqMoO4WtvCx+9HWXu2Tjq1/0u0JPAt/ZwXgZxFWNDfA0jUn6y2MCZRe3AgdLvFHhwZFu6KEdqgjV04s+/s='
