@@ -11,3 +11,5 @@ eureka:
     fetch-registry: true
     serviceUrl:
       defaultZone: http://admin:admin123@localhost:8101/eureka/
+data:
+  message: '{cipher} 0c19b4dd1820dd7323e1ffdfc1bbde00f3fc32fc66bb06cc244be34aec3dba26'
