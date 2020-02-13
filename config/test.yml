@@ -11,5 +11,10 @@ eureka:
     fetch-registry: true
     serviceUrl:
       defaultZone: http://admin:admin123@localhost:8101/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info
 data:
   message: '{cipher}AQBxuQXdXpNA4LMGPLjK+oAYueb4jk3PEU5cOk5LkUMJpmWxkGSLJi8Gv1xpNUVNOff8e3e5IThYho/vDQ0ZoruFfcBi7BkRW2YaC89sJovPhbs/OrM6d/B5nQbzgvrmC2mg8dMLVa6f0MuqrgkM5BMs7yTvnXnyjIe42U9BZGz5qHyLM2JmRUHDx47ZkFn1DjIgpGRJM3ddCX6dWEt31LLfPr+Si6PONb2zySRtEC9cqnda5+c7NAhY2hk51gd/BcsIlDXM3lWpKKaIAG+laaBLpw5FztDrxrDWYYz+swDJN5Jni3+JzN/sKbOKYVWzdi9HJDnEhjKduwxqhQwc8OwsCzInBFG3Ga6JMHP07kyb4vgR0nHcicpaBuyvf0iIP0s='
