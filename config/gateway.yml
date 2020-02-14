@@ -12,6 +12,11 @@ spring:
       discovery:
         locator:
           enabled: true
+      routes:
+      	- id: TEST
+      		uri: lb://TEST
+      		predicates:
+      			- Path=/**
 logging:
   #配置网关日志策略
   level:
