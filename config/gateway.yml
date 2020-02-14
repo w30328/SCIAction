@@ -16,9 +16,9 @@ spring:
       - id: TEST
         uri: lb://TEST
         predicates:
-          - Path=/TEST/**
+        - Path=/TEST/**
         filters:
-          - StripPrefix=1
+        - StripPrefix=1
 logging:
   #配置网关日志策略
   level:
