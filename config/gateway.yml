@@ -12,13 +12,22 @@ spring:
       discovery:
         locator:
           enabled: true
+          #服务serviceId不分区大小写
+          lowerCaseServiceId: true
       routes:
-      - id: TEST
-        uri: lb://TEST
-        predicates:
-        - Path=/TEST/**
-        filters:
-        - StripPrefix=1
+        #网关路由的转发 lb:// 表示是从注册中心发现serviceId
+        - id: demo-client
+          uri: lb://demo-client
+          predicates:
+            - Path=/demo-client/**
+          filters:
+            - StripPrefix=1
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://admin:admin123@localhost:8100/eureka/
 logging:
   #配置网关日志策略
   level:
@@ -26,6 +35,3 @@ logging:
     org.springframework.http.server.reactive: debug
     org.springframework.web.reactive: debug
     reactor.ipc.netty: debug
-feign:
-  hystrix:
-    enabled: true
