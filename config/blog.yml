@@ -2,4 +2,4 @@ server:
   port: 8202
 spring:
   application:
-    name: blog
+    name: blog-client

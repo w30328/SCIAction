@@ -22,6 +22,12 @@ spring:
             - Path=/demo-client/**
           filters:
             - StripPrefix=1
+        - id: blog-client
+          uri: lb://blog-client
+          predicates:
+            - Path=/blog-client/**
+          filters:
+            - StripPrefix=1
 eureka:
   client:
     healthcheck:
